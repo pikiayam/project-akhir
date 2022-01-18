@@ -10,6 +10,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AddDataComponent } from './add-data/add-data.component';
+import { EditDataComponent } from './edit-data/edit-data.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppMenuComponent,
     DivisionsComponent,
     DashboardComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    AddDataComponent,
+    EditDataComponent
   ],
   imports: [
     BrowserModule,
